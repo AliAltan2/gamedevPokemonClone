@@ -7,7 +7,8 @@ public enum GameState
     FreeRoam,
     Battle,
     Talking,
-    Cutscene
+    Cutscene,
+    Paused
 }
 public class GameController : MonoBehaviour
 {
@@ -17,7 +18,9 @@ public class GameController : MonoBehaviour
     PoliticianController rival;
     GameState state;
     public static GameController Instance {get; private set;}
-    private void Awake(){
+    GameState stateBeforePause;
+    private void Awake()
+    {
         Instance = this;
         ConditionsDB.Init();
     }
@@ -36,6 +39,17 @@ public class GameController : MonoBehaviour
                 state = GameState.FreeRoam;
             }
         };
+    }
+    public void PausedScene(bool isPaused)
+    {
+        if(isPaused)
+        {
+            stateBeforePause = state;
+            state = GameState.Paused;
+        }else
+        {
+            state = stateBeforePause;
+        }
     }
     void EndBattle(bool win)
     {
