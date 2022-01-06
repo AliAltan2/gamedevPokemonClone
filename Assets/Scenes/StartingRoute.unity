@@ -271,10 +271,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - HEY YOU !! YEA YOU !!
-    - Do you want some penis enlargment pills ?
-    - It will make your dick REAL BIGGG
-    - Bought them from Turkey no Cappa :3
+    - Hey Boss, Good luck in the elections
+    - I am sure that you will succeed this year!
+    - Show them what we are made of !
   movePattern:
   - {x: 2, y: 0}
   - {x: 0, y: -2}
@@ -326,7 +325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 185b92ea2c9265047887e8197081cc8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 5
+  movespeed: 2
 --- !u!1 &437705729
 GameObject:
   m_ObjectHideFlags: 0
@@ -34317,7 +34316,7 @@ Transform:
   - {fileID: 2076973614}
   - {fileID: 539952293}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &705862087
 MonoBehaviour:
