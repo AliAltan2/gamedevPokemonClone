@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: BARACK OBAMA
+  m_EditorClassIdentifier: 
+  name: BARACK OBAMA
+  description: "Barack Hussein Obama II (/b\u0259\u02C8r\u0251\u02D0k hu\u02D0\u02C8se\u026An
+    o\u028A\u02C8b\u0251\u02D0m\u0259/ (About this soundlisten) b\u0259-RAHK hoo-SAYN
+    oh-BAH-m\u0259;[1] born August 4, 1961) is an American politician, lawyer, and
+    author who served as the 44th president of the United States from 2009 to 2017.
+    A member of the Democratic Party, Obama was the first African-American president
+    of the United States.[2] He previously served as a U.S. senator from Illinois
+    from 2005 to 2008 and as an Illinois state senator from 1997 to 2004.\r\n\r\nObama
+    was born in Honolulu, Hawaii. After graduating from Columbia University in 1983,
+    he worked as a community organizer in Chicago. In 1988, he enrolled in Harvard
+    Law School, where he was the first black president of the Harvard Law Review.
+    After graduating, he became a civil rights attorney and an academic, teaching
+    constitutional law at the University of Chicago Law School from 1992 to 2004.
+    Turning to elective politics, he represented the 13th district in the Illinois
+    Senate from 1997 until 2004, when he ran for the U.S. Senate. Obama received
+    national attention in 2004 with his March Senate primary win, his well-received
+    July Democratic National Convention keynote address, and his landslide November
+    election to the Senate. In 2008, a year after beginning his campaign, and after
+    a close primary campaign against Hillary Clinton, he was nominated by the Democratic
+    Party for president. Obama was elected over Republican nominee John McCain in
+    the general election and was inaugurated alongside his running mate Joe Biden,
+    on January 20, 2009. Nine months later, he was named the 2009 Nobel Peace Prize
+    laureate, a decision that drew a mixture of praise and criticism."
+  frontSprite: {fileID: 21300000, guid: 70b60fd32e312d1478bbbcd16f37cd4b, type: 3}
+  backSprite: {fileID: 21300000, guid: 48da19a9121a2964bbc9927a5e560928, type: 3}
+  type1: 4
+  type2: 9
+  maxHP: 50
+  attack: 85
+  deffence: 55
+  spAttack: 65
+  spDeffence: 65
+  speed: 90
+  expYield: 150
+  catchRate: 255
+  growthRate: 0
+  lernableMoves:
+  - moveBase: {fileID: 11400000, guid: 319e059e28afe3e42a66385a10d32ee6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: a948f7aa5289094428d878eff5e93805, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: bc5df572b0d750e43af9f3e214b6ff95, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: c548c197310169c4b95df23a22db0c1f, type: 2}
+    level: 14

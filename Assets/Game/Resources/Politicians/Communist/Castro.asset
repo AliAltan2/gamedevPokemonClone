@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: Castro
+  m_EditorClassIdentifier: 
+  name: 'Fidel Castro '
+  description: "Fidel Alejandro Castro Ruz (/\u02C8k\xE6stro\u028A/;[1] American
+    Spanish: [fi\u02C8\xF0el ale\u02C8xand\u027Eo \u02C8kast\u027Eo \u02C8rus]; 13
+    August 1926 \u2013 25 November 2016) was a Cuban revolutionary, lawyer, and politician
+    who was the leader of Cuba from 1959 to 2008, serving as the prime minister of
+    Cuba from 1959 to 1976 and president from 1976 to 2008. Ideologically a Marxist\u2013Leninist
+    and Cuban nationalist, he also served as the first secretary of the Communist
+    Party of Cuba from 1961 until 2011. Under his administration, Cuba became a one-party
+    communist state; industry and business were nationalized, and state socialist
+    reforms were implemented throughout society."
+  frontSprite: {fileID: 21300000, guid: 7dba2628fc77b8f459c584e8a8154461, type: 3}
+  backSprite: {fileID: 21300000, guid: e2d52cce4900eef4abc6907d1537cfca, type: 3}
+  type1: 5
+  type2: 3
+  maxHP: 45
+  attack: 50
+  deffence: 55
+  spAttack: 75
+  spDeffence: 65
+  speed: 30
+  expYield: 150
+  catchRate: 255
+  growthRate: 1
+  lernableMoves: []

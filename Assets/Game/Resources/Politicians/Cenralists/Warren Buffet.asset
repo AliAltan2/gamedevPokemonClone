@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: Warren Buffet
+  m_EditorClassIdentifier: 
+  name: 'Warren Buffet '
+  description: Buffett has been the chairman and largest shareholder of Berkshire
+    Hathaway since 1970.[8] He has been referred to as the "Oracle" or "Sage" of
+    Omaha by global media.[9][10] He is noted for his adherence to value investing,
+    and his personal frugality despite his immense wealth.[11] Research published
+    at the University of Oxford characterizes Buffett's investment methodology as
+    falling within "founder centrism", defined by a deference to managers with a
+    founder's mindset, an ethical disposition towards the shareholder collective,
+    and an intense focus on exponential value creation. Essentially, Buffett's concentrated
+    investments shelter managers from the short-term pressures of the market.[12]
+  frontSprite: {fileID: 21300000, guid: 6751deebb0b81c04aabb4cb11c4c39a4, type: 3}
+  backSprite: {fileID: 21300000, guid: 9bd5798315f5a38468ed2c1401311807, type: 3}
+  type1: 2
+  type2: 9
+  maxHP: 115
+  attack: 45
+  deffence: 20
+  spAttack: 45
+  spDeffence: 25
+  speed: 20
+  expYield: 250
+  catchRate: 255
+  growthRate: 2
+  lernableMoves:
+  - moveBase: {fileID: 11400000, guid: 319e059e28afe3e42a66385a10d32ee6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 367f50145335de54297bf6d7a5d84ac8, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 87bfd94b3f282b8418a6f68368cc367f, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 8277211eb4bec01459bcdfa8eecdbe76, type: 2}
+    level: 15

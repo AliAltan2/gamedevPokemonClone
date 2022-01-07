@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: Emmanuel Macron
+  m_EditorClassIdentifier: 
+  name: 'Emanuel Macron '
+  description: "Emmanuel Jean-Michel Fr\xE9d\xE9ric Macron (French: [eman\u0265\u025Bl
+    \u0292\u0251\u0303 mi\u0283\u025Bl f\u0281ede\u0281ik mak\u0281\u0254\u0303];
+    born 21 December 1977) is a French politician who has been serving as the president
+    of France since 14 May 2017.\r\n\r\nBorn in Amiens, Macron studied philosophy
+    at Paris Nanterre University, later completing a master's degree in public affairs
+    at Sciences Po and graduating from the \xC9cole nationale d'administration in
+    2004. He worked as a senior civil servant at the Inspectorate General of Finances
+    and later became an investment banker at Rothschild & Co."
+  frontSprite: {fileID: 21300000, guid: 2ba685fd46c70b8448fe54cd92e0b9ed, type: 3}
+  backSprite: {fileID: 21300000, guid: 278859f4f46cc8240b619c67e7e38280, type: 3}
+  type1: 2
+  type2: 3
+  maxHP: 35
+  attack: 55
+  deffence: 40
+  spAttack: 50
+  spDeffence: 50
+  speed: 90
+  expYield: 200
+  catchRate: 255
+  growthRate: 1
+  lernableMoves:
+  - moveBase: {fileID: 11400000, guid: 319e059e28afe3e42a66385a10d32ee6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 704ba4197b99bf948a64c8ef5788fbf5, type: 2}
+    level: 3
+  - moveBase: {fileID: 11400000, guid: 138771b6cfe154d4497e9abf840bc682, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: ebe12ae5c849e0d4395ed154a2283dcc, type: 2}
+    level: 15

@@ -34028,7 +34028,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   partylessPoliticians:
   - _base: {fileID: 11400000, guid: 6b0aca6102e863b4fbac3317e33b5c27, type: 2}
+    level: 3
+  - _base: {fileID: 11400000, guid: d3da5bc325e0f5641ae189f9080e2904, type: 2}
     level: 2
+  - _base: {fileID: 11400000, guid: a5c0cae3c7fe22e41805854a4064224a, type: 2}
+    level: 2
+  - _base: {fileID: 11400000, guid: 650e7e03e815e3a45ada8a8896c5b60c, type: 2}
+    level: 4
+  - _base: {fileID: 11400000, guid: 821fd51a45a5dae499623dcf3eab209a, type: 2}
+    level: 3
+  - _base: {fileID: 11400000, guid: 2fc87acb60b3e7b47923298e23d53f4b, type: 2}
+    level: 4
+  - _base: {fileID: 11400000, guid: 6f6ff5b4df45db34b892f7fe5d8fc5a4, type: 2}
+    level: 5
+  - _base: {fileID: 11400000, guid: bee6cb681636dbb43bd35e94f876dd60, type: 2}
+    level: 6
+  - _base: {fileID: 11400000, guid: 330bfb5bc56872b47833e5046ecc8613, type: 2}
+    level: 4
+  - _base: {fileID: 11400000, guid: 2e5c1042ccc377f4e9d499b44daa3763, type: 2}
+    level: 4
 --- !u!1 &539952291
 GameObject:
   m_ObjectHideFlags: 0
@@ -34194,12 +34212,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - I am a staunch communist
-    - Prepare to go to gulag blyat
+    - 'Hold up there buddy '
+    - I think I should be the one that goes to the elections
+    - 'Prepare the debate of your life '
   dialogAfterLoss:
     lines:
-    - You have bested me Blyn
-    - Victory is yours
+    - Ok I give up, you are the better one
+    - Very impresive arguments, but you have to get stronger
+    - 'Get around respect level of 14-15 before starting the castle '
+    - I mean you can get our of the castle but anyway
+    - Good luck
+    - Go to the logs to travel to the city
   exclamation: {fileID: 539952291}
   fov: {fileID: 2076973613}
   sprite: {fileID: 6752759643274810355, guid: a97a0b25f139fa84199c7f0d0290757c, type: 3}
@@ -34316,7 +34339,7 @@ Transform:
   - {fileID: 2076973614}
   - {fileID: 539952293}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &705862087
 MonoBehaviour:
@@ -45637,6 +45660,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2836460654566298077, guid: 919a2c4bf7feaa447968ce88413b0f94, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2836460654566298077, guid: 919a2c4bf7feaa447968ce88413b0f94, type: 3}
       propertyPath: m_Name
       value: Portal

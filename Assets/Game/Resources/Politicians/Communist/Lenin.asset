@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: Lenin
+  m_EditorClassIdentifier: 
+  name: Lenin
+  description: "Vladimir Ilyich Ulyanov[b] (22 April [O.S. 10 April] 1870 \u2013
+    21 January 1924), better known by his alias Lenin,[c] was a Russian revolutionary,
+    politician, and political theorist. He served as the first and founding head
+    of government of Soviet Russia from 1917 to 1924 and of the Soviet Union from
+    1922 to 1924. Under his administration, Russia, and later the Soviet Union, became
+    a one-party socialist state governed by the Soviet Communist Party. A Marxist,
+    he developed a variant of communist ideology known as Leninism."
+  frontSprite: {fileID: 21300000, guid: ed02b0a10028c3149a70bea182a9785b, type: 3}
+  backSprite: {fileID: 21300000, guid: c3c2db74b8eb3d948bddd71c27e8ec1f, type: 3}
+  type1: 5
+  type2: 7
+  maxHP: 40
+  attack: 45
+  deffence: 35
+  spAttack: 40
+  spDeffence: 40
+  speed: 90
+  expYield: 150
+  catchRate: 255
+  growthRate: 1
+  lernableMoves: []

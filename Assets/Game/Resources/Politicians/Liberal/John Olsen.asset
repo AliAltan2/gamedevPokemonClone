@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: John Olsen
+  m_EditorClassIdentifier: 
+  name: John Olsen
+  description: 
+  frontSprite: {fileID: 21300000, guid: 7a623e46d50332a4c988984ba85d8748, type: 3}
+  backSprite: {fileID: 21300000, guid: 20134b95cb78e29459cd33c59c734d54, type: 3}
+  type1: 4
+  type2: 9
+  maxHP: 80
+  attack: 60
+  deffence: 90
+  spAttack: 60
+  spDeffence: 90
+  speed: 60
+  expYield: 200
+  catchRate: 255
+  growthRate: 3
+  lernableMoves:
+  - moveBase: {fileID: 11400000, guid: 319e059e28afe3e42a66385a10d32ee6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 4552a865d32da90498b47dc3c62f5df2, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: ffca1fa18c6d64446959af157fc5fd0c, type: 2}
+    level: 7
+  - moveBase: {fileID: 11400000, guid: a948f7aa5289094428d878eff5e93805, type: 2}
+    level: 14

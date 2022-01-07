@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+// Source https://www.youtube.com/watch?v=BKCsH8mQ-lM and https://www.youtube.com/watch?v=yWCHaTwVblk
 public class SoundManager : MonoBehaviour
 {
 [SerializeField] Slider volumeSlider;

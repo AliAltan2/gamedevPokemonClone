@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: Ruth Davidson
+  m_EditorClassIdentifier: 
+  name: 
+  description: 
+  frontSprite: {fileID: 21300000, guid: 26d13916ab3bee743a78cf5bd9c380d8, type: 3}
+  backSprite: {fileID: 21300000, guid: 6bfddc2463ac8f54fac3fd9db321d558, type: 3}
+  type1: 3
+  type2: 9
+  maxHP: 50
+  attack: 75
+  deffence: 35
+  spAttack: 70
+  spDeffence: 30
+  speed: 40
+  expYield: 150
+  catchRate: 255
+  growthRate: 0
+  lernableMoves:
+  - moveBase: {fileID: 11400000, guid: 319e059e28afe3e42a66385a10d32ee6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: b9b5e3e4d5dd1514497283e39080c43d, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 367f50145335de54297bf6d7a5d84ac8, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 36e1242bbb3202343897807f78284106, type: 2}
+    level: 13

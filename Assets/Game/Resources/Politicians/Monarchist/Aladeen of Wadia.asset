@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: Aladeen of Wadia
+  m_EditorClassIdentifier: 
+  name: Admiral-General Haffaz Aladeen
+  description: For years, the fictional North African nation of the Republic of Wadiya
+    (shown as coterminous with the boundaries of Eritrea on a map) has been ruled
+    by Admiral-General Haffaz Aladeen, a childish, tyrannical, sexist, anti-Western,
+    and antisemitic dictator who surrounds himself with female bodyguards, sponsors
+    terrorism (especially giving shelter to al-Qaeda leader Osama Bin Laden after
+    "they killed his double one year ago"), changes many words in the Wadiyan dictionary
+    to "Aladeen", and is working on developing nuclear weapons to attack Israel.
+    He also refuses to sell Wadiya's oil fields, a promise he made to his father
+    before his death. After the United Nations Security Council resolves to intervene
+    militarily, Aladeen travels to the UN Headquarters in New York City to address
+    the council.
+  frontSprite: {fileID: 21300000, guid: c75cafc69723f134690b117ce7f44e7b, type: 3}
+  backSprite: {fileID: 21300000, guid: 1a7f7106e43692d489afd49422557da0, type: 3}
+  type1: 6
+  type2: 7
+  maxHP: 65
+  attack: 50
+  deffence: 35
+  spAttack: 115
+  spDeffence: 95
+  speed: 95
+  expYield: 300
+  catchRate: 255
+  growthRate: 2
+  lernableMoves:
+  - moveBase: {fileID: 11400000, guid: 319e059e28afe3e42a66385a10d32ee6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 55ff240e99132eb41a4781f4d6835fa7, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: 87bfd94b3f282b8418a6f68368cc367f, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 41443a136d190dc4e914919257cb811e, type: 2}
+    level: 14

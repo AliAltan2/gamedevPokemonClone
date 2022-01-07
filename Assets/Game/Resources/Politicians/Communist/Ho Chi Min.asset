@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: Ho Chi Min
+  m_EditorClassIdentifier: 
+  name: Ho Chi Minh
+  description: "H\u1ED3 Ch\xED Minh (/ho\u028A t\u0283i\u02D0 m\u026An/;[1] Vietnamese:
+    [h\xF2 c\u01D0 m\u012B\u014B\u031F] (About this soundlisten), Saigon: [h\xF2
+    c\u01D0 m\u0268\u0304n]; Ch\u1EEF H\xE1n: \u80E1\u5FD7\u660E; 19 May 1890 \u2013
+    2 September 1969[a]), born Nguy\u1EC5n Sinh Cung,[b][5][6] also known as Nguy\u1EC5n
+    T\u1EA5t Th\xE0nh, Nguy\u1EC5n \xC1i Qu\u1ED1c, B\xE1c H\u1ED3, Ng\u01B0\u1EDDi
+    cha d\xE2n t\u1ED9c or simply B\xE1c ('Uncle', pronounced [\u0294\u0253a\u02D0k\u031A\u02E6\u02E5]),
+    was a Vietnamese revolutionary and politician. He served as Prime Minister of
+    Democratic Republic of Vietnam from 1945 to 1955 and President from 1945 until
+    his death in 1969. Ideologically a Marxist\u2013Leninist, he served as Chairman
+    and First Secretary of the Workers' Party of Vietnam. He was born in Ngh\u1EC7
+    An province, in Central Vietnam."
+  frontSprite: {fileID: 21300000, guid: 649eb33b2fb93484490406fbf4276950, type: 3}
+  backSprite: {fileID: 21300000, guid: c358a021e8b0e804bbbf95a52bb20645, type: 3}
+  type1: 5
+  type2: 8
+  maxHP: 35
+  attack: 70
+  deffence: 55
+  spAttack: 45
+  spDeffence: 55
+  speed: 25
+  expYield: 150
+  catchRate: 255
+  growthRate: 0
+  lernableMoves: []

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: Hillary Clinton
+  m_EditorClassIdentifier: 
+  name: 'Hillary Clinton '
+  description: "Hillary Diane Rodham Clinton (n\xE9e Rodham; born October 26, 1947)
+    is an American politician, diplomat, lawyer, writer, and public speaker who served
+    as the 67th United States secretary of state from 2009 to 2013, as a United States
+    senator from New York from 2001 to 2009, and as first lady of the United States
+    from 1993 to 2001 as the wife of President Bill Clinton. A member of the Democratic
+    Party, she was the party's nominee for president in the 2016 presidential election,
+    becoming the first woman to win a presidential nomination by a major U.S. political
+    party. Clinton won the popular vote in the election, making her the first woman
+    to do so. However, she lost the Electoral College."
+  frontSprite: {fileID: 21300000, guid: 990165e343c6dfd44ad4d1c021ee4c3c, type: 3}
+  backSprite: {fileID: 21300000, guid: 2afc76ab93bcb0944b26a88993b63e37, type: 3}
+  type1: 4
+  type2: 9
+  maxHP: 65
+  attack: 45
+  deffence: 55
+  spAttack: 45
+  spDeffence: 70
+  speed: 55
+  expYield: 150
+  catchRate: 255
+  growthRate: 1
+  lernableMoves:
+  - moveBase: {fileID: 11400000, guid: 319e059e28afe3e42a66385a10d32ee6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: e16fa0588a6dcd8419255c27df605e77, type: 2}
+    level: 5
+  - moveBase: {fileID: 11400000, guid: 88092ea0d86442d409398fd64cc2f032, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: c548c197310169c4b95df23a22db0c1f, type: 2}
+    level: 14

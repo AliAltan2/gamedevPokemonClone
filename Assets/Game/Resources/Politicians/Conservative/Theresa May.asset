@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: Theresa May
+  m_EditorClassIdentifier: 
+  name: 
+  description: 
+  frontSprite: {fileID: 21300000, guid: 7d2c9a519dd5cb44e917877930597edf, type: 3}
+  backSprite: {fileID: 21300000, guid: 1d7ad5ab727126a4e9288963a60fe3c1, type: 3}
+  type1: 3
+  type2: 1
+  maxHP: 40
+  attack: 80
+  deffence: 100
+  spAttack: 30
+  spDeffence: 30
+  speed: 20
+  expYield: 150
+  catchRate: 255
+  growthRate: 0
+  lernableMoves:
+  - moveBase: {fileID: 11400000, guid: 319e059e28afe3e42a66385a10d32ee6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 7ca615d6aba014746a500b13892e3717, type: 2}
+    level: 6
+  - moveBase: {fileID: 11400000, guid: 88092ea0d86442d409398fd64cc2f032, type: 2}
+    level: 9
+  - moveBase: {fileID: 11400000, guid: 36e1242bbb3202343897807f78284106, type: 2}
+    level: 14

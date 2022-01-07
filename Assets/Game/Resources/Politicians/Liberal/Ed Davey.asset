@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155702d849f5ce948b03dab651b2a827, type: 3}
+  m_Name: Ed Davey
+  m_EditorClassIdentifier: 
+  name: Ed Davey
+  description: "Sir Edward Jonathan Davey FRSA MP (born 25 December 1965) is a British
+    politician who has served as Leader of the Liberal Democrats since 2020.[a] He
+    served in the Cameron\u2013Clegg coalition as Secretary of State for Energy and
+    Climate Change from 2012 to 2015 and as Deputy Leader to Jo Swinson from 2019
+    to 2020. An \"Orange Book\" liberal,[2] he has been the Member of Parliament
+    (MP) for Kingston and Surbiton since 2017,[3] and from 1997 to 2015.[4]\r\n\r\nDavey
+    was born in Mansfield, Nottinghamshire, where he attended Nottingham High School.
+    He then went on to study at Jesus College, Oxford, and Birkbeck, University of
+    London. He was an economics researcher and financial analyst before being elected
+    to the House of Commons. He served as a Liberal Democrat Spokesperson to Charles
+    Kennedy, Menzies Campbell and Nick Clegg from 2005 to 2010, in various portfolios
+    including Education and Skills, Trade and Industry, and Foreign and Commonwealth
+    Affairs."
+  frontSprite: {fileID: 21300000, guid: c653d1931808d3c43ade8474d1631b88, type: 3}
+  backSprite: {fileID: 21300000, guid: 284961bac4a492c418b2fe0c9cc3be21, type: 3}
+  type1: 4
+  type2: 9
+  maxHP: 35
+  attack: 85
+  deffence: 45
+  spAttack: 35
+  spDeffence: 35
+  speed: 75
+  expYield: 150
+  catchRate: 255
+  growthRate: 0
+  lernableMoves:
+  - moveBase: {fileID: 11400000, guid: 319e059e28afe3e42a66385a10d32ee6, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 101156409555718429378ded61ee4330, type: 2}
+    level: 4
+  - moveBase: {fileID: 11400000, guid: ffca1fa18c6d64446959af157fc5fd0c, type: 2}
+    level: 8
+  - moveBase: {fileID: 11400000, guid: c548c197310169c4b95df23a22db0c1f, type: 2}
+    level: 15

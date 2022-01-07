@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 
-
+// Source : https://www.youtube.com/channel/UCswdeChigkx5uN1PwgfTqzQ Also known as Youtube/Game Dev Experiments
 [CreateAssetMenu(fileName = "MoveBase", menuName = "Not Pokemon/Create a new move")]
 public class MoveBase : ScriptableObject 
 {
